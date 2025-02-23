@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-02-23T06:44:43.612Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2522735000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Successful Signup and Login",
+        "description": "",
+        "id": "user-signup-and-login;successful-signup-and-login",
+        "after": [
+          {
+            "result": {
+              "duration": 128016000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "definitions.Hooks.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7467650000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the Magento signup page",
+            "match": {
+              "location": "definitions.SignupSteps.userNavigateToTheSignupPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4273405000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid details and submit the form",
+            "match": {
+              "location": "definitions.SignupSteps.userEnterValidDetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 526077000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see a success message",
+            "match": {
+              "location": "definitions.SignupSteps.userShouldSeeSuccessMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9016222000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I log in with the created account",
+            "match": {
+              "location": "definitions.LoginSteps.userLoginWithCreatedAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1512144000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see my account dashboard",
+            "match": {
+              "location": "definitions.LoginSteps.userShouldSeeAccountDashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Signup and Login",
+    "description": "",
+    "id": "user-signup-and-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Signup.feature",
+    "tags": []
+  }
+]
