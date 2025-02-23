@@ -1,0 +1,17 @@
+POM-cucumber-selenium-framework/.classpath
+POM-cucumber-selenium-framework/.idea/compiler.xml
+POM-cucumber-selenium-framework/.idea/encodings.xml
+POM-cucumber-selenium-framework/.settings/org.eclipse.core.resources.prefs
+POM-cucumber-selenium-framework/.settings/org.eclipse.jdt.apt.core.prefs
+POM-cucumber-selenium-framework/.settings/org.eclipse.jdt.core.prefs
+POM-cucumber-selenium-framework/.settings/org.eclipse.m2e.core.prefs
+POM-cucumber-selenium-framework/.idea/jarRepositories.xml
+/target/
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
