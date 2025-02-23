@@ -29,4 +29,10 @@ public class SignupSteps {
         signupPage.enterPassword("Test@1234");
         signupPage.clickSignup();
     }
+
+    @Then("I should see a success message")
+    public void userShouldSeeSuccessMessage() {
+        Assert.assertTrue(signupPage.isSignupSuccessful());
+        driver.quit();
+    }
 }

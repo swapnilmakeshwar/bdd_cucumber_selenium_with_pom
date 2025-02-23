@@ -51,4 +51,9 @@ public class SignupPage {
     public void clickSignup() {
         driver.findElement(signupButton).click();
     }
+
+    public boolean isSignupSuccessful() {
+
+        return driver.findElement(successMessage).isDisplayed();
+    }
 }

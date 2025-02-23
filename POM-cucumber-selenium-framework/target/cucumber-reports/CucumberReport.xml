@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="102.927">
-    <testcase classname="User Signup and Login" name="Successful Signup and Login" time="102.643">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.714">
+    <testcase classname="User Signup and Login" name="Successful Signup and Login" time="25.531">
         <system-out><![CDATA[Given I navigate to the Magento signup page.................................passed
 When I enter valid details and submit the form..............................passed
 Then I should see a success message.........................................passed
